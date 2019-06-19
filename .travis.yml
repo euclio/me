@@ -1,0 +1,21 @@
+language: rust
+
+before_install:
+  - nvm install --lts
+
+script:
+  - cargo test
+  - cargo run --release
+  - npm install
+  - npm run build
+
+deploy:
+  provider: pages
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
+  repo: euclio/euclio.github.io
+  target_branch: master
+  skip_cleanup: true
+  fqdn: acrussell.com
+  on:
+    branch: master
