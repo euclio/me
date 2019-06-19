@@ -1,6 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
-  width: 40em;
+  max-width: 40em;
   background-color: #212121;
   color: #fafafa;
   margin-left: 2em;
@@ -18,11 +18,15 @@ code {
 
 h1 {
   font-family: 'Major Mono Display', monospace;
-  font-size: 4em;
+  font-size: 9vw;
   line-height: initial;
   text-transform: lowercase; }
   h1::first-letter {
     text-transform: uppercase; }
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4em; } }
 
 h2 {
   border-bottom: 1px solid #eaecef; }
