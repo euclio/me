@@ -7,8 +7,8 @@
 - **[GitHub]**
 - **[Email]**
 
-I currently live in Cambridge, MA. I majored in Computer Science and minored in
-Classics at Pomona College.
+I currently live in Braintree, MA, south of Boston. I majored in Computer
+Science and minored in Classics at Pomona College.
 
 ## Projects and Contributions
 
